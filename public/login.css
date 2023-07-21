@@ -1,0 +1,155 @@
+#login-form2{
+    display: block;
+}
+#login-form1{
+    display: none;
+}
+a {
+    text-decoration: none;
+}
+.card-body{
+    background-color: white;
+}
+.pwm-field-icon{
+  display: none!important;
+}
+.login-back-fon {
+    width: 100%;
+    height: 100% !important;
+    
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+
+.login-form {
+    width: 598px;
+    height: 100%;
+    background-color: white;
+}
+
+.btn-primary {
+    width: 100%;
+    margin-top: 25px;
+}
+
+.login {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.login a {
+    font-size: 22px;
+    color: black;
+    padding: 20px;
+    font-weight: 700;
+}
+
+.login-account {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.login-account h2{
+    font-size: 32px;
+    color: black;
+    padding: 20px;
+    font-weight: 500;
+}
+.login-account span{
+    font-size: 18px;
+    color: #757575;
+}
+.form-control{
+    padding: 15px;
+    background-color: transparent;
+    /* width: 100%; */
+}
+.form-group{
+    padding-bottom: 30px;
+}
+.section-form-login{
+    padding-top: 60px;
+}
+.btn-primary{
+    padding: 15px;
+    font-size: 22px;
+}
+.forget-pass{
+    display: flex;
+    justify-content: space-between;
+}
+.forget-pass label {
+    padding-left: 10px;
+    font-size: 22px;
+}
+.Sign-social{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    height: 70px;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 255, 0.671);
+}
+
+.facebook{
+    padding: 15px;
+    font-size: 22px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+.facebook i{
+    padding-right: 10px;
+}
+.Sign-social2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    height: 70px;
+    justify-content: space-between;
+    background-color: #EA4335;
+}
+
+
+
+
+.register-checked{
+  transition: 0.5s ease;
+  text-align: center;
+  width: 0%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: absolute;
+}
+.login-checked{
+  transition: 0.5s ease;
+  text-align: center;
+  width: 0%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: absolute;
+}
+
+.login-passed{
+  transition: 0.5s ease;
+  text-align: center;
+  width: 0%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: absolute;
+}
