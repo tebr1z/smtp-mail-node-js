@@ -18,17 +18,17 @@ app.post('/send-email', (req, res) => {
     `;
     
     const transporter = nodemailer.createTransport({
-        host: 'mail.1001proqram.com',
+        host: 'mail.hasimovtabriz.com.tr',
         port: 465,
         secure: true,
         auth: {
-            user: 'admin@1001proqram.com',
+            user: 'noreply@hasimovtabriz.com.tr',
             pass: '*********'
         }
     });
     
     const mailOptions = {
-        from: 'Edumy <admin@1001proqram.com>',
+        from: 'Edumy <admin@hasimovtabriz.com.tr>',
         to: email,
         subject: 'Edumy University',
         html: html + name+"  " +" Qeydiyat uğurla tamamlandı!"
@@ -47,7 +47,7 @@ app.post('/send-email', (req, res) => {
 
 
 app.listen(3000, () => {
-    console.log('Sunucu çalışıyor: http://localhost:3000');
+    console.log('server: http://localhost:3000');
 });
 
 
